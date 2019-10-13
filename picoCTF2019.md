@@ -15,6 +15,10 @@ We can use compare `cmp` cmd
 
 
 
+
+
+
+
 # Binary Exploitation
 ---
 
@@ -71,6 +75,10 @@ Binary is 64bit, on shell server increse one byte for flag() address [replace: 0
 
 
 
+
+
+
+
 # Forensics
 ---
 
@@ -110,13 +118,17 @@ File named tar_opener.py
 
 
 ## What-lies-within :- 
-zsteg tool	[OR]  	[stegnography online]{https://stylesuxx.github.io/steganography/ }
+zsteg tool	[OR]  	[stegnography online](https://stylesuxx.github.io/steganography/)
 
 `picoCTF{h1d1ng_1n_th3_b1t5}`
 
 
 shark on wire 2 :- NOT DONE
+
 picoCTF{StaT31355e
+
+
+
 
 
 
@@ -172,16 +184,23 @@ morse code
 
 
 ## rsa-pop-quiz:- 	
-https://the-rsa-tron.koorkevani.repl.co/   [ n=pxq , totient(n)=(p-1)x(q-1) , create ciphertext using python ="pow(plaintext,e,N)" ] finally convert plaintext/numbers[14311663942709674867122208214901970650496788151239520971623411712977120619528460123336291453] to hex using python3=  "hex(number)" than hex to ascii online.
+> https://the-rsa-tron.koorkevani.repl.co/   [ n=pxq , totient(n)=(p-1)x(q-1) , create ciphertext using python ="pow(plaintext,e,N)" ] finally convert plaintext/numbers [14311663942709674867122208214901970650496788151239520971623411712977120619528460123336291453] to hex using python=  "hex(number)" than hex to ascii online https://www.rapidtables.com/convert/number/hex-to-ascii.html
 
 `picoCTF{wA8_th4t$_ill3aGal..of4878474}`
 
 
 
 ## waves over lambda :-    
-example:- [iywbelgp fzez hp cyne xtlb - xezanzwic_hp_i_ymze_tlsvul_xuhhhenvel]    (https://quipqiup.com/)
+example:- [iywbelgp fzez hp cyne xtlb - xezanzwic_hp_i_ymze_tlsvul_xuhhhenvel]    https://quipqiup.com/
 
 `picoCTF{frequency_is_c_over_lambda_fdiiirubra}`
+
+
+
+
+
+
+
 
 
 
@@ -248,6 +267,13 @@ Add new parameters while requesting /flag page [ ;admin=True;time=1400]
 burpsuit, passwd is encrypted using rot13 [rot13 of ' or 1=1 --  ==> ' BE 1=1 -- ]
 
 `picoCTF{3v3n_m0r3_SQL_a9766759}`
+
+
+
+
+
+
+
 
 
 
