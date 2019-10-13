@@ -32,9 +32,9 @@ for audio analysis
 ### Commands:-
 ---
 <pre>
-strings        	[see the strings in files]
+strings        	      [see the strings in files]
 
-cat   			          [see the data in files]
+cat   			       [see the data in files]
 
 exiftool      	      [see the details of images]
 
