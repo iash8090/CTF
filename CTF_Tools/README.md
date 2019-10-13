@@ -31,19 +31,20 @@ for audio analysis
 
 ### Commands:-
 ---
-strings	    &nbsp;&nbsp;&nbsp;&nbsp;    	[see the strings in files]
+<pre>
+strings        	[see the strings in files]
 
-cat   			 &nbsp;&nbsp;&nbsp;&nbsp;     [see the data in files]
+cat   			          [see the data in files]
 
-exiftool      &nbsp;&nbsp;&nbsp;&nbsp; 	[see the details of images]
+exiftool      	      [see the details of images]
 
-steghide	    &nbsp;&nbsp;&nbsp;&nbsp;    [for extracting data from images]
+steghide	            [for extracting data from images]
 
-zsteg 		    &nbsp;&nbsp;&nbsp;&nbsp;    [for stegno-hidden data on pixels, png and bmp files]
+zsteg 		            [for stegno-hidden data on pixels, png and bmp files]
 
-binwalk -e	   &nbsp;&nbsp;&nbsp;&nbsp;   [to extract the files stored in binary(bin), image]
+binwalk -e	          [to extract the files stored in binary(bin), image]
 
-
+</pre>
 
 ### Websites:-
 ---
