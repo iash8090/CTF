@@ -74,37 +74,43 @@ Binary is 64bit, on shell server increse one byte for flag() address [replace: 0
 # Forensics
 ---
 
-#Glory of the Garden :- cat		[OR]  hexdump -C garden.jpg |grep -A 4 -B 2 CTF
+## Glory of the Garden :- 
+>cmd:-  <p> cat		[OR]  hexdump -C garden.jpg |grep -A 4 -B 2 CTF
 
 `picoCTF{more_than_m33ts_the_3y3f089EdF0}`
 
 
-#unzip
+## unzip
 
 `picoCTF{unz1pp1ng_1s_3a5y}`
 
 
-#so meta :-  cat	[OR]  hexdump -C pico_img.png  |grep -A 3 pico
+## so meta :- 
+> cmd:- <p>  cat [OR]  hexdump -C pico_img.png  |grep -A 3 pico
 
 `picoCTF{s0_m3ta_ffd09c0f}`
 
 
-#extensions :- 'file' cmd
+## extensions :- 
+`file` cmd
 
 `picoCTF{now_you_know_about_extensions}`
 
 
-#shark on wire 1 :-  src=10.0.0.2, dst=10.0.0.12, Length=60, No.=63
+## shark on wire 1 :-  
+src=10.0.0.2, dst=10.0.0.12, Length=60, No.=63
 
 `picoCTF{StaT31355_636f6e6e}`
 
 
-#like1000 :- File named tar_opener.py
+## like1000 :- 
+File named tar_opener.py
 
 `picoCTF{l0t5_0f_TAR5}`
 
 
-#What-lies-within :-  zsteg tool	[OR]  	{https://stylesuxx.github.io/steganography/ }
+## What-lies-within :- 
+zsteg tool	[OR]  	[stegnography online]{https://stylesuxx.github.io/steganography/ }
 
 `picoCTF{h1d1ng_1n_th3_b1t5}`
 
@@ -120,16 +126,19 @@ picoCTF{StaT31355e
 ---
 
 
-## The Numbers :- letters with their sequence numbers
+## The Numbers :- 
+letters with their sequence numbers
 
 `picoCTF{THENUMBERSMASON}`
 
 
-## Easy1:- Vernam Cipher OR Vigenere Cipher [ciphertext=UFJKXQZQUNB , key=SOLVECRYPTO]
+## Easy1:- 
+Vernam Cipher OR Vigenere Cipher [ciphertext=UFJKXQZQUNB , key=SOLVECRYPTO]
 
 `picoCTF{CRYPTOISFUN}`
 
-## 13 :- rot13
+## 13 :- 
+rot13
 
 `picoCTF{not_too_bad_of_a_problem}`
 
@@ -140,21 +149,24 @@ picoCTF{StaT31355e
 
 
 ## la cifra de
-https://guballa.de/vigenere-solver
+[vigenerae cipher](https://guballa.de/vigenere-solver)
 
 `picoCTF{b311a50_0r_v1gn3r3_c1ph3r1119c336}`
 
 
-## Flags :- nautical flag alphabet
+## Flags :- 
+nautical flag alphabet
 
 `PICOCTF{F1AG5AND5TUFF}`
 
-## Mr-Worldwide:-  get location using cordinates and flag is the first letters of the city
+## Mr-Worldwide:- 
+get location using cordinates and flag is the first letters of the city
 
 `picoCTF{KODIAK_ALASKA}`
 
 
-## Tapping:- morse code
+## Tapping:- 
+morse code
 
 `PICOCTF{M0RS3C0D31SFUN3960854397}`
 
@@ -166,39 +178,45 @@ https://the-rsa-tron.koorkevani.repl.co/   [ n=pxq , totient(n)=(p-1)x(q-1) , cr
 
 
 
-## waves over lambda :-    [iywbelgp fzez hp cyne xtlb - xezanzwic_hp_i_ymze_tlsvul_xuhhhenvel]    https://quipqiup.com/
+## waves over lambda :-    
+example:- [iywbelgp fzez hp cyne xtlb - xezanzwic_hp_i_ymze_tlsvul_xuhhhenvel]    (https://quipqiup.com/)
 
 `picoCTF{frequency_is_c_over_lambda_fdiiirubra}`
 
 
 
 
-###WEB Exploitation
+# WEB Exploitation
 ---
-https://github.com/qihaoooooo/picoCTF-2019/blob/master/web.md
+[Refrence](https://github.com/qihaoooooo/picoCTF-2019/blob/master/web.md)
 
 
-## Insp3ct0r :- check all source code pages
+## Insp3ct0r :- 
+check all source code pages
 
 `picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?e85ef63c}`
 
 
-#dont-use-client-side :-  check source code
+## dont-use-client-side :-  
+check source code
 
 `picoCTF{no_clients_plz_90ff34}`
 
 
-## logon :- intercapt the request and change username=admin and admin=True for each request
+## logon :- 
+intercapt the request and change username=admin and admin=True for each request
 
 `picoCTF{th3_c0nsp1r4cy_l1v3s_6679fcb5}`
 
 
-## Where are the robots :- robots.txt
+## Where are the robots :- 
+robots.txt
 
 `picoCTF{ca1cu1at1ng_Mach1n3s_0ecd0}`
 
 
-## Client-side-again :- source code, check 'var 0x5a46' and guess the flag
+## Client-side-again :- 
+source code, check 'var 0x5a46' and guess the flag
 
 `picoCTF{not_this_again_d29871}`
 
@@ -209,7 +227,7 @@ https://github.com/qihaoooooo/picoCTF-2019/blob/master/web.md
 
 
 ## open-to-admins :-  
-Add new parameters while requestin /flag [ ;admin=True;time=1400]
+Add new parameters while requesting /flag page [ ;admin=True;time=1400]
 
 `picoCTF{0p3n_t0_adm1n5_cc661e91}`
 
@@ -235,7 +253,7 @@ burpsuit, passwd is encrypted using rot13 [rot13 of ' or 1=1 --  ==> ' BE 1=1 --
 
 
 # Reverse Engineering
-===========================
+---
 
 ## vault-door-training
 
