@@ -1,8 +1,8 @@
 Here are the flags and solutions for some of the challenges of picoCTF 2019
 
-
++++
 # General
----
+***
 
 In general category i haven't put all the solutions.
 
@@ -18,7 +18,7 @@ We can use compare `cmp` cmd
 
 
 
-
+---
 # Binary Exploitation
 ---
 
@@ -78,7 +78,7 @@ Binary is 64bit, on shell server increse one byte for flag() address [replace: 0
 
 
 
-
+---
 # Forensics
 ---
 
@@ -133,7 +133,7 @@ picoCTF{StaT31355e
 
 
 
-
+---
 # Crytography  
 ---
 
@@ -184,8 +184,11 @@ morse code
 
 
 ## rsa-pop-quiz:- 	
-> https://the-rsa-tron.koorkevani.repl.co/   [ n=pxq , totient(n)=(p-1)x(q-1) , create ciphertext using python ="pow(plaintext,e,N)" ] finally convert plaintext/numbers [14311663942709674867122208214901970650496788151239520971623411712977120619528460123336291453] to hex using python=  "hex(number)" than hex to ascii online https://www.rapidtables.com/convert/number/hex-to-ascii.html
-
+``` 
+https://the-rsa-tron.koorkevani.repl.co/  
+ [ n=pxq , totient(n)=(p-1)x(q-1) , create ciphertext using python ="pow(plaintext,e,N)" ]
+ finally convert plaintext/numbers [14311663942709674867122208214901970650496788151239520971623411712977120619528460123336291453] to hex using python=  "hex(number)" then hex to ascii online https://www.rapidtables.com/convert/number/hex-to-ascii.html
+```
 `picoCTF{wA8_th4t$_ill3aGal..of4878474}`
 
 
@@ -199,12 +202,7 @@ example:- [iywbelgp fzez hp cyne xtlb - xezanzwic_hp_i_ymze_tlsvul_xuhhhenvel]  
 
 
 
-
-
-
-
-
-
+---
 # WEB Exploitation
 ---
 [Refrence](https://github.com/qihaoooooo/picoCTF-2019/blob/master/web.md)
@@ -264,20 +262,14 @@ Add new parameters while requesting /flag page [ ;admin=True;time=1400]
 
 
 ## Irish-Name-Repo 3 :- 
-burpsuit, passwd is encrypted using rot13 [rot13 of ' or 1=1 --  ==> ' BE 1=1 -- ]
+intercept using burpsuit, passwd is encrypted using rot13 [rot13 of ' or 1=1 --  ==> ' BE 1=1 -- ]
 
 `picoCTF{3v3n_m0r3_SQL_a9766759}`
 
 
 
 
-
-
-
-
-
-
-
+---
 # Reverse Engineering
 ---
 
