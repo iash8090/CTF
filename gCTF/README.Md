@@ -1,4 +1,4 @@
-These are the flags from Google Beginners quest 2019 competition.
+<h2>These are the flags from Google Beginner's Quest 2019 competition. </h2>
 
 ### 1. Space-Time coordinates
 `CTF{welcome_to_googlectf}`
