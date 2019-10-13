@@ -5,26 +5,26 @@
 ### Tools:-
 ---
 
-#stegembed.jar 
+#### stegembed.jar 
 It is used for '.png' images to embed or extract data using password
-#cmd:- java -jar stegembed.jar extract -i FILE.png -p PASSWD
+>cmd:- <p> java -jar stegembed.jar extract -i FILE.png -p PASSWD
 
 
-#stegsolve.jar 
+#### stegsolve.jar 
 A GUI tool, used for color inversion in images
-#cmd:- java -jar steghide
+>cmd:- <p> java -jar steghide
 
 
 
-#SonicVisualiser
+#### SonicVisualiser
 for audio analysis
-#cmd:- ./SonicVisualiser.......
+>cmd:- <p> ./SonicVisualiser.......
 
 
 
-#Audacity
+#### Audacity
 for audio analysis
-#cmd:- wine AudacityPortable.exe
+>cmd:- <p> wine AudacityPortable.exe
 
 
 
@@ -32,17 +32,22 @@ for audio analysis
 ### Commands:-
 ---
 strings		[see the strings in files]
+
 cat			[see the data in files]
+
 exiftool	[see the details of images]
+
 steghide	[for extracting data from images]
+
 zsteg 		[for stegno-hidden data on pixels, png and bmp files]
+
 binwalk -e	[to extract the files stored in binary(bin), image]
 
 
 
 ### Websites:-
 ---
-https://quipqiup.com/			-->It can solve simple substitution ciphers often found in puzzles like cryptoquips (in which word boundaries are preserved) and patristocrats (inwhi chwor dboun darie saren t)
+https://quipqiup.com/			  -->It can solve simple substitution ciphers often found in puzzles like cryptoquips (in which word boundaries are preserved) and patristocrats (inwhi chwor dboun darie saren t)
 
 https://guballa.de/vigenere-solver		--> for vigenera solver without key
 
