@@ -28,6 +28,10 @@ for audio analysis
 
 
 
+#### jd-gui-1.6.3.jar
+for checking the `.class` files inside `.jar` that we can get by converting `.apk` to `.zip` then converting 'classes.dex' to `.jar` using `d2j-dex2jar classes.dex`
+>cmd:- <p> java -jar jd-gui-1.6.3.jar
+
 
 ### Commands:-
 ---
