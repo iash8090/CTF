@@ -80,7 +80,7 @@ or directly use 'reversefuck' on OCR
 
 
 ### 15. Crack-Network  		
- aircrack-ng file.cap -w WORDLIST
+>cmd:- <p> aircrack-ng file.cap -w WORDLIST
 
 `HE{budaksetan}`
 
