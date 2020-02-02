@@ -3,60 +3,73 @@ Flags of Cipher Combate CTF Hackerearth 2020
 
 ### 1. Reverse Password		
 using 'strings' cmd
+
 `HE{W0rK_H@rD_pl@y_Hard3R}`
 
 
 ### 2. Play and Win
 using 'strings' cmd
+
 `HE{You_are_a_tic_tac_toe_Ch@mpion}`
 
 
 ### 3. Welcome !!
+
 `HE{Welcome_to_Cipher_Combat}`
 
 
 ### 4. QR-Code!
+
 `HE{Ahhhh!_Y0u_@r3_0N_4!gH7_Tr@cK}`
 
 
 ### 5. Neighbours WiFi !!!
  use stegcracker
+
 `HE{7h!s_!$_$tegn0grPHy}`
 
 
 ### 6. BASE
+
 `HE{K33p_Calm_@nd_Ca4ry_On__Y0U_are_Do!ng_a_Great_j0B}`
 
 
 ### 7. Rotate
+
 `HE{Now_You_Know_How_To_Rotate}`
 
 
 ### 8. CrackME
+
 `HE{You_@re_@_Zip_Cracker}`
 
 
 ### 9. ReadMe
+
 `HE{YoU_are_Absolute_Beginner}`
 
 
 ### 10. Ping
+
 `HE{j@v@_c0d3_1s_m0r3_und3rst@nd@bl3_th@n_sm@l1}`
 
 
 ### 11. My Fav song 	
 use online audio morse code detector --> found "QZZAUGPZ" word, this is the pastebin file url
 https://pastebin.com/QZZAUGPZ
+
 `HE{4ud10_fil3s_c4n_h1d3_d4t4}`
 
 
 ### 12. Three-words
+
 `HE{talkative_racker_mainstream}`
 
 
 ### 13. Barden 
 use stegsolve.jar to find image inside image --> ORC --> reverse brainfuck (x="brainfuck_value"[::-1])
 or directly use 'reversefuck' on OCR
+
 `HE{br4inst3gogr4phed}`
 
 
@@ -68,6 +81,7 @@ or directly use 'reversefuck' on OCR
 
 ### 15. Crack-Network  		
  aircrack-ng file.cap -w WORDLIST
+
 `HE{budaksetan}`
 
 
@@ -79,6 +93,7 @@ or directly use 'reversefuck' on OCR
 
 
 ### 17. HIDDEN
+
 `HE{Y0u_G0t_50M3_5K1lLs}`
 
 
